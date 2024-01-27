@@ -219,40 +219,35 @@ void PenanggulanganDiare()
   fprintf(dp, "Usia : %d tahun\n", pasienBaru.usia);
   fprintf(dp, "Berat Badan : %dkg\n", pasienBaru.bb);
   fprintf(dp, "Keluhan : %s\n", pasienBaru.info.keluhan);
+  fprintf(dp, "Obat : Oralite\n");
 
   if (pasienBaru.bb >= 3.0 && pasienBaru.bb <= 4.5)
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Dosis yang diberikan 60 ml per satu jam sekali\n");
     printf("Dosis: 60 ml per satu jam sekali\n");
   }
   else if (pasienBaru.bb > 4.5 && pasienBaru.bb <= 7.0)
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Dosis yang diberikan 70 ml per satu jam sekali\n");
     printf("Dosis: 70 ml per satu jam sekali\n");
   }
   else if (pasienBaru.bb > 7.0 && pasienBaru.bb <= 9.0)
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Dosis yang diberikan 100 ml per satu jam sekali\n");
     printf("Dosis: 100 ml per satu jam sekali\n");
   }
   else if (pasienBaru.bb > 9.0 && pasienBaru.bb <= 18.0)
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Dosis yang diberikan 190 ml per satu jam sekali\n");
     printf("Dosis: 190 ml per satu jam sekali\n");
   }
   else if (pasienBaru.bb > 18.0 && pasienBaru.bb < 27.0)
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Dosis yang diberikan 300 ml per satu jam sekali\n");
     printf("Dosis: 300 ml per satu jam sekali\n");
   }
   else
   {
-    fprintf(dp, "Obat : Oralite\n");
     fprintf(dp, "Tidak dapat menentukan dosis untuk berat badan ini.\n");
     printf("Tidak dapat menentukan dosis untuk berat badan ini.\n");
   }
